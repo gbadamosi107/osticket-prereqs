@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Install / Enable Internet Information Services (IIS) in Windows
-- Install Web Platform Installer
+- Install PHP Manager for IIS
 - Install C++ redistributable
 - Install MySQL and set up the username and password
 - Configure Permissions and Install os-Ticket
@@ -41,12 +41,12 @@ Access the "Control Panel", "Programs", then "Programs and Features". Then selec
 </p>
 <br />
 
-<h3>Step 2: Install Web Platform Installer</h3>
+<h3>Step 2: Install PHP Manager for IIS</h3>
 <p>
-<img src="https://i.imgur.com/hGSsUtw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wHPt2N9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download the Web Platform Installer (obtain link from Google) and open the file
+Download and install PHP Manager for IIS  (obtain link from Google) and open the file. This allows you to run PHP on IIS
 </p>
 <br />
 
