@@ -41,6 +41,7 @@ Access the "Control Panel", "Programs", then "Programs and Features". Then selec
 </p>
 <br />
 
+<h3>Step 2: Install Web Platform Installer</h3>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
