@@ -81,7 +81,7 @@ Download osTicket (osTicket.com) and open the file. Open IIS (run as an administ
 </p>
 <br>
 
-<h3>Step 6: Rename ost-config.php
+<h3>Step 6: Rename upload folder to osTicket
 </h3>
 <br>
 
@@ -106,23 +106,44 @@ Download osTicket (osTicket.com) and open the file. Open IIS (run as an administ
  Open IIS, refresh the page, "osTicket" will appear under "sites." Click on "osTicket, then click, "Browse 80(http).  "Localhost/osTicket/setup/" will load on the webpage. You will notice that some of the extensions on the page will be disabled. To enable them, open PHP Manager in IIS, click, "enable or disable an extensions," enable, "imap," "intl," and "opcache." Refresh the osTicket page and click "continue."
 </p>
 
-<h3>Step 8: Configure Permissions 
+<h3>Step 8: Configure Permissions and Continue Setting up osTicket in the browser
 </h3>
 <br>
 
 <p>
-<img src="https://i.imgur.com/QYIdzRy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MKGsjvg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
  Create the "ost-config.php" file. Go back to wwwrootfolder, go to osTicket, click include, go to "ost-config," right click it and click  properties, then click "security,"click "users," click "edit," to change permission, click "users" again, then under "Permission for Users," click "Full Control," then click apply, then click ok. This will allow you to have full Access to osTicket. Go back to osTicket and click Continue. You should now see osTicket Basic Installation. Fill out the information for your help desk and admin user. 
 </p>  
  
+<h3>Step 9: Download and Install HeidiSQL
+</h3>
+<br>
+
 <p>
- When you get to the Database settings page, you must create a database. Download "Heidisql" (from heidisql.com), click "installer 32/64 bit combined." Once it installs, your VM may restart. Open Heidisql, click "New." The username and password will be the same as for MySQL. This will open a connection to the database. Right click and hit "create new," and select "database," name it osTicket.
+<img src="https://i.imgur.com/R28Qbec.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Download "Heidisql" (from heidisql.com). Once it installs, your VM may restart. Open Heidisql, click "New." The username and password will be the same as for MySQL. This will open a connection to the database. Right click and hit "create new," and select "database," name it osTicket.
+</p>
+
+<h3>Step 10: osTicket Successfully Installed
+</h3>
+<br>
+
+<p>
+<img src="https://i.imgur.com/uyzKSTX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
  Go back to osTicket and fill in the database information. MySQL will be "osticket," username will be "root," password will be the same password you entered previously for MySQL. Click Install and osTickt should now be installed successfully.
 </p> 
 <br />
+
+<p>
+<img src="https://i.imgur.com/w1tyHsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
