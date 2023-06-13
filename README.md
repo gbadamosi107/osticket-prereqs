@@ -24,8 +24,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Install / Enable Internet Information Services (IIS) in Windows
 - Install Web Platform Installer
-- Install MySQL and set up the username and password
 - Install C++ redistributable
+- Install MySQL and set up the username and password
 - Configure Permissions and Install os-Ticket
 
 <h2>Installation Steps</h2>
